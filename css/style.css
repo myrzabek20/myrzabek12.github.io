@@ -1,33 +1,37 @@
 html {
   box-sizing: border-box;
-}
 
--,
-- ::before,
-- ::after {
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
-
 body {
-  font-family: fantasy, sans-serif;
-
-  margin: 0;
-}
-
-.container {
-  width: 1140px;
-
+  font-family: "Open Sans", sans-serif;
   margin: 0 auto;
 }
-
-.header a {
-  color: blue;
-
-  text-decoration: none;
+.container {
+  width: 1140px;
+  margin: 0 auto;
 }
-
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+  color: blue;
+}
+. .header a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: floralwhite;
+}
+#logo {
+  color: firebrick;
+}
 .header-navigation {
-  background-color: chartreuse;
+  background-color: rgba(128, 255, 0, 0.918);
 
   padding: 10px 0;
 }
@@ -52,9 +56,91 @@ body {
   padding: 0 15px;
 
   font-size: 17px;
+  background-color: floralwhite;
+  border-radius: 10px;
+  gap: 20px;
 }
 
 .fest {
   color: crimson;
   font-size: 500%;
+}
+.intro {
+  padding: 60px;
+}
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.intro-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.intro-left {
+  width: 30%;
+}
+.intro-right {
+  width: 60%;
+  padding: 15px;
+
+  border-radius: 5px;
+  background-image: url(https://cache.desktopnexus.com/thumbseg/493/493770-bigthumbnail.jpg);
+}
+.intro-right h1,
+.intro-right h3 {
+  margin: 0 0 15px;
+}
+.contacts {
+  margin-bottom: 60px;
+}
+.contacts ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contacts li {
+  text-align: center;
+}
+.skills {
+  color: blue;
+  background-color: rgba(128, 255, 0, 0.918);
+  padding: 60px 0;
+}
+.skills ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 20px;
+}
+.skills li {
+  padding: 15px 10px;
+  background-color: floralwhite;
+  border-radius: 5px;
+}
+.code-example {
+  padding: 60px 0;
+  text-align: center;
+}
+.code-example p {
+  font-style: italic;
+}
+.code-example b {
+  font-style: normal;
+}
+.code-example pre {
+  text-align: left;
+  width: 30%;
+  margin: 0 auto;
+
+  border-radius: 10px;
+  color: aliceblue;
+  background-image: url(https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg);
 }

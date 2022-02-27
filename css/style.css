@@ -21,8 +21,7 @@ body {
   text-align: center;
   color: blue;
 }
-. .header a {
-  color: blue;
+.header a {
   font-weight: bold;
   text-decoration: none;
   background-color: floralwhite;
@@ -143,4 +142,86 @@ body {
   border-radius: 10px;
   color: aliceblue;
   background-image: url(https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg);
+}
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+div h1 {
+  display: flex;
+  justify-content: center;
+  color: blue;
+}
+.cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards li {
+  border: 2px solid blue;
+  border-radius: 5px;
+  background-color: rgba(128, 255, 0, 0.918);
+
+  flex: 1 1 200px;
+}
+
+.cards h2 {
+  background-color: blue;
+  margin: 0;
+  padding: 10px;
+}
+
+.cards p {
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.flex li {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  grid-gap: 20px;
+}
+.languages li {
+  display: flex;
+  justify-content: center;
+}
+.education {
+  padding: 15px;
+  margin: 0;
+  display: flex;
+  background-color: rgba(128, 255, 0, 0.918);
+  color: blue;
+}
+.education ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 20px;
+}
+.education li {
+  padding: 15px 10px;
+  background-color: floralwhite;
+  border-radius: 5px;
+}
+.end {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+  margin: 60px;
+  background-color: rgb(175, 216, 175);
+  color: red;
+  gap: 35px;
 }

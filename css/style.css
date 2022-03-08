@@ -60,10 +60,6 @@ body {
   gap: 20px;
 }
 
-.fest {
-  color: crimson;
-  font-size: 500%;
-}
 .intro {
   padding: 60px;
 }
@@ -84,9 +80,8 @@ body {
 .intro-right {
   width: 60%;
   padding: 15px;
-
-  border-radius: 5px;
-  background-image: url(https://cache.desktopnexus.com/thumbseg/493/493770-bigthumbnail.jpg);
+  color: firebrick;
+  font-size: 20px;
 }
 .intro-right h1,
 .intro-right h3 {
@@ -105,11 +100,13 @@ body {
 }
 .contacts li {
   text-align: center;
+  color: firebrick;
+  font-size: 20px;
 }
 .skills {
   color: blue;
   background-color: rgba(128, 255, 0, 0.918);
-  padding: 60px 0;
+  padding: 15px;
 }
 .skills ul {
   display: flex;
@@ -127,6 +124,8 @@ body {
 .code-example {
   padding: 60px 0;
   text-align: center;
+  color: firebrick;
+  font-size: 20px;
 }
 .code-example p {
   font-style: italic;
@@ -140,7 +139,7 @@ body {
   margin: 0 auto;
 
   border-radius: 10px;
-  color: aliceblue;
+  color: rgb(9, 255, 0);
   background-image: url(https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg);
 }
 .wrapper {
@@ -152,50 +151,49 @@ div h1 {
   justify-content: center;
   color: blue;
 }
-.cards {
-  list-style: none;
+.portfolio {
+  background-color: rgba(128, 255, 0, 0.918);
+  padding: 15px;
+}
+
+.portfolio-title {
+  margin-bottom: 2em;
+}
+.portfolio ul {
   margin: 0;
   padding: 0;
-}
-
-.cards li {
-  border: 2px solid blue;
-  border-radius: 5px;
-  background-color: rgba(128, 255, 0, 0.918);
-
-  flex: 1 1 200px;
-}
-
-.cards h2 {
-  background-color: blue;
-  margin: 0;
-  padding: 10px;
-}
-
-.cards p {
-  padding: 10px;
-}
-
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -10px;
-}
-
-.flex li {
-  flex: 1 1 200px;
-  margin: 10px;
-}
-
-.grid {
+  list-style: none;
   display: grid;
-  align-items: center;
-  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.portfolio li {
+  background-color: floralwhite;
+  border-radius: 3px;
+  text-align: center;
+  overflow: hidden;
+  object-fit: cover;
+}
+.portfolio a {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  background-color: firebrick;
+  color: floralwhite;
+}
+.portfolio img {
+  width: 100%;
 }
 .languages li {
   display: flex;
-  justify-content: center;
+
+  color: firebrick;
 }
+
+.languages img {
+  margin: 10px;
+}
+
 .education {
   padding: 15px;
   margin: 0;
@@ -214,14 +212,18 @@ div h1 {
 .education li {
   padding: 15px 10px;
   background-color: floralwhite;
+  color: firebrick;
   border-radius: 5px;
 }
 .end {
   display: flex;
   justify-content: center;
-  padding: 60px;
-  margin: 60px;
+  padding: 15px;
+  margin: 30px 0px;
   background-color: rgb(175, 216, 175);
-  color: red;
+  color: firebrick;
   gap: 35px;
+}
+.end img {
+  border-radius: 5px;
 }
